@@ -31,29 +31,33 @@ Follow these simple steps to set up and run StudyFlow on your local machine.
 
 INSTALLATION GUIDE
 
-1. Clone the Repository:
-   --------------------------------------
-   git clone https://github.com/Nivethith-AK/studyflow.git
+Step 1: Clone the Repository
+--------------------------------------
+Command to copy:
+git clone https://github.com/Nivethith-AK/studyflow.git
 
-2. Navigate into the Project Folder:
-   --------------------------------------
-   cd studyflow
+Step 2: Navigate into the Project Folder
+--------------------------------------
+Command to copy:
+cd studyflow
 
-3. Open the Project:
-   --------------------------------------
-   Since this is a static website, simply open 'index.html' with your browser.
+Step 3: Open the Project
+--------------------------------------
+Since this is a static website, simply open 'index.html' with your browser.
 
-   - For Windows:
-       start index.html
-   - For macOS:
-       open index.html
-   - For Linux:
-       xdg-open index.html
+For Windows (copy-paste):
+start index.html
 
-   OR use VS Code Live Server Extension:
-   --------------------------------------
-   - Right-click 'index.html'
-   - Select "Open with Live Server"
+For macOS (copy-paste):
+open index.html
+
+For Linux (copy-paste):
+xdg-open index.html
+
+OR use VS Code Live Server Extension:
+--------------------------------------
+1. Right-click 'index.html'
+2. Select "Open with Live Server"
 
 
 ------------------------------------------------------------
