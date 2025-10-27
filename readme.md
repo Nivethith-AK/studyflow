@@ -38,14 +38,9 @@ Follow these simple steps to set up and run StudyFlow on your local machine.
 3. Open the Project:
    Since this is a static website, simply open index.html with your browser.
 
-   For Windows:
-   start index.html
-
-   For macOS:
-   open index.html
-
-   For Linux:
-   xdg-open index.html
+   For Windows: start index.html
+   For macOS: open index.html
+   For Linux: xdg-open index.html
 
    OR use VS Code Live Server Extension:
    - Right-click index.html
