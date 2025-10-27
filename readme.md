@@ -30,8 +30,7 @@ Built with HTML, CSS, and JavaScript, this project focuses on a clean UI, smooth
 Follow these simple steps to set up and run StudyFlow on your local machine.
 
 1. Clone the Repository:
-   git clone https://github.com/<your-username>/studyflow.git
-   (Replace <your-username> with your actual GitHub username.)
+   git clone https://github.com/Nivethith-AK/studyflow.git
 
 2. Navigate into the Project Folder:
    cd studyflow
@@ -51,18 +50,6 @@ Follow these simple steps to set up and run StudyFlow on your local machine.
    OR use VS Code Live Server Extension:
    - Right-click index.html
    - Select “Open with Live Server”
-
-------------------------------------------------------------
-📁 FOLDER STRUCTURE
-------------------------------------------------------------
-
-studyflow/
-│
-├── index.html          → Main homepage
-├── style.css           → All the styling rules
-├── script.js           → All the interactive JavaScript code
-├── assets/             → Images, icons, and media files
-└── README.txt          → Project documentation
 
 ------------------------------------------------------------
 🧠 USAGE
@@ -108,9 +95,9 @@ This project is licensed under the MIT License – feel free to use and modify i
 💬 CONTACT
 ------------------------------------------------------------
 
-Developer: Neo Nik  
-Email: your-email@example.com  
-GitHub: https://github.com/<your-username>
+Developer: Nivethith-AK
+Email: niknive7@gmail.com
+GitHub: https://github.com/Nivethith-AK
 
 ------------------------------------------------------------
 ⭐ Don’t forget to give this repo a star if you found it useful!
