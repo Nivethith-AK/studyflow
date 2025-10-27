@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StudyFlow - Your Ultimate Study Planner</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader"><div class="spinner"></div></div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <nav class="container">
+      <a href="index.html" class="logo-text">StudyFlow</a>
+      <div class="nav-links-container">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </div>
+      <div id="nav-auth-links" class="nav-auth-buttons">
+        <button id="join-now-nav-btn" class="btn btn-primary">Join Now</button>
+      </div>
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+        <i data-feather="menu"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content animate-on-scroll">
+          <h1>Organize Your Studies, Ace Your Exams</h1>
+          <p>The smart, easy-to-use study planner that helps you manage your subjects, track your progress, and achieve your academic goals.</p>
+          <a href="#" class="btn btn-primary">Start Planning for Free</a>
+        </div>
+        <div class="hero-image animate-on-scroll">
+          <img src="assets/images/hero.jpg" alt="Person writing at a clean desk" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF -->
+    <section class="social-proof animate-on-scroll">
+      <div class="container">
+        <div class="proof-container">
+          <div class="proof-item"><h3>50K+</h3><p>Students Joined</p></div>
+          <div class="proof-item"><h3>1.2M</h3><p>Hours Logged</p></div>
+          <div class="proof-item"><h3>4.8/5</h3><p>App Store Rating</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2>Everything You Need To Succeed</h2>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card animate-on-scroll">
+            <i class="feature-icon" data-feather="calendar"></i>
+            <h3>Smart Timetable</h3>
+            <p>Create a dynamic study schedule with reminders.</p>
+          </div>
+          <div class="feature-card animate-on-scroll">
+            <i class="feature-icon" data-feather="book-open"></i>
+            <h3>Resource Management</h3>
+            <p>Organize your notes, links, and documents easily.</p>
+          </div>
+          <div class="feature-card animate-on-scroll">
+            <i class="feature-icon" data-feather="bar-chart-2"></i>
+            <h3>Progress Tracking</h3>
+            <p>Monitor your study habits with beautiful charts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANALYTICS -->
+    <section id="analytics" class="analytics">
+      <div class="container">
+        <div class="analytics-section">
+          <div class="analytics-content">
+            <h2 class="animate-on-scroll">Visualize Your Learning Journey</h2>
+            <p class="animate-on-scroll">Understand your study patterns, identify strengths, and pinpoint areas for improvement. Our analytics dashboard turns your study data into actionable insights.</p>
+            <p class="animate-on-scroll">We provide detailed charts on your most studied subjects, your most productive days of the week, and how you're tracking against the goals you've set.</p>
+            <p class="animate-on-scroll">By identifying these patterns, you can optimize your schedule. Our data helps you build a routine tailored to you.</p>
+            <a href="#" class="btn btn-primary animate-on-scroll">See a Demo</a>
+          </div>
+          <div class="analytics-image animate-on-scroll">
+            <img src="assets/images/analytics.jpg" alt="Analytics dashboard" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2>Choose the Plan That's Right for You</h2>
+          <p>Start for free, and upgrade when you need more power.</p>
+        </div>
+        <div class="pricing-grid">
+          <div class="pricing-card animate-on-scroll">
+            <h3>Basic</h3>
+            <div class="price">Free</div>
+            <ul class="features-list">
+              <li>Up to 5 Subjects</li>
+              <li>Basic Timetable</li>
+              <li>Progress Tracking</li>
+              <li>Community Support</li>
+            </ul>
+            <button class="btn btn-secondary btn-full">Get Started</button>
+          </div>
+          <div class="pricing-card popular animate-on-scroll">
+            <h3>Pro</h3>
+            <div class="price">LKR 1,500<span>/month</span></div>
+            <ul class="features-list">
+              <li>Unlimited Subjects</li>
+              <li>Smart Timetable</li>
+              <li>Advanced Progress Tracking</li>
+              <li>Resource Management</li>
+              <li>Priority Support</li>
+            </ul>
+            <button class="btn btn-primary btn-full">Choose Pro</button>
+          </div>
+          <div class="pricing-card animate-on-scroll">
+            <h3>Premium</h3>
+            <div class="price">LKR 3,000<span>/month</span></div>
+            <ul class="features-list">
+              <li>All Pro Features</li>
+              <li>Advanced Analytics</li>
+              <li>AI Study Recommendations</li>
+              <li>Cloud Backups</li>
+            </ul>
+            <button class="btn btn-secondary btn-full">Choose Premium</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-container">
+      <a href="index.html" class="logo-text">StudyFlow</a>
+      <ul class="footer-nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="#" aria-label="Instagram"><i data-feather="instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
+      </div>
+      <div class="footer-legal-links">
+        <a href="#">Privacy Policy</a> | <a href="#">Terms & Condition</a>
+      </div>
+      <p class="footer-credit">Developed By <a href="#">The StudyFlow Team</a></p>
+      <p class="copyright">© 2025 StudyFlow. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- External JS -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
